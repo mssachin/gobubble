@@ -17,7 +17,7 @@ public class Steps {
 
     @Given("I login to instagram")
     public void i_login_to_instagram() {
-        login.toInstagram("mssachin26", "Password!23");
+        login.toInstagram("<tobefilled>", "<tobefilled>");
     }
     @Given("I search for a profile {string}")
     public void i_search_for_a_profile(String profile) {
